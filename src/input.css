@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base{
+    body{
+        @apply overflow-x-hidden
+    }
+    p{
+        @apply text-black
+    }
+}
+
+@layer components{
+
+}
+
+@media (min-width: 56.25em){
+    #tns2 {
+        margin: 0 auto;
+        width: calc(75%);
+    }
+}
+
+
+/* .header nav ul li a{
+    padding-bottom: .5rem;
+    @apply hover:text-btnSecondaryGreen hover:border-b-2 hover:border-btnSecondaryGreen 
+}
+
+.tns-controls button:first-child{
+    @apply hidden md:block absolute top-[50%] z-10 left-[2%] bg-white rounded-full w-10 h-10 text-primary 
+}
+
+.tns-controls button:last-child{
+    @apply hidden md:block absolute top-[50%] z-10 right-[2%] bg-white rounded-full w-10 h-10 text-primary
+} */
